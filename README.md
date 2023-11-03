@@ -1,30 +1,37 @@
 # Capstone-Module-2-DataSet-TransJakarta
+Hello everyone, this is my second capstone project in Data Science Bootcamp on Purwadhika. In this project is representation from module 2 which mean the module 2 is about Data Analyst, at module 2 i was learned Data Analyst from MySQL, Python for Data Analyst, Fundamental Statistic, and Visualization.
+This project is end-to-end analyst of the dataset. In this project used Public TransJakarta dataset from [Dataset](https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction) with dummy data from master data.
 
-TransJakarta adalah sebuah sistem transportasi Bus Rapid Transit (BRT) pertama di Asia Tenggara dan Selatan dengan jalur lintasan terpanjang di dunia (208 km). Sistem BRT ini didesain berdasarkan sistem TransMilenio di Bogota, Kolombia. Terhitung sejak 1 Februari 2004, TransJakarta resmi beroperasi. 
+You could see the Tableu Visualization [my Tableu](https://public.tableau.com/app/profile/faris.rasyid/viz/TransJakartaDataset/Story1)
+You could see my presentation [EXPLORATORY DATA ANALYSIS.pptx](https://github.com/farisyid/Capstone-Module-2/files/13247744/EXPLORATORY.DATA.ANALYSIS.pptx)
 
-Pada tahun 2011, TransJakarta menenerapkan sistem manajemen armada terpadu. Salah satunya, melakukan integrasi dengan operator bus untuk menyediakan layanan feeder Busway bagi para pelanggannya. Di tahun ini juga TransJakarta mulai melakukan persiapan pembukaan layanan koridor 11 & 12 serta mengganti bus koridor 1 dengan bus articulated.
+### **Overview**
+TransJakarta is the first Bus Rapid Transit (BRT) transport system in Southeast and South Asia with the longest track in the world (208 km). The BRT system was designed based on the TransMilenio system in Bogota, Colombia. As of 1 February 2004, TransJakarta was officially in operation. 
 
-TransJakarta mempersiapkan pembukaan koridor - koridor baru seperti, persiapan tender operator, pembangunan jalur Busway, ramp, halte dan infrastruktur pendukung lainnya. Di tahun 2013, TransJakarta juga mulai menerapkan sistem e-ticketing untuk seluruh koridor serta integrasi sistem e-ticketing dengan feeder Busway dan angkutan umum lainnya.
+In 2011, TransJakarta implemented an integrated fleet management system. One of them is integrating with bus operators to provide Busway feeder services for its customers. In this year, TransJakarta also began preparations for the opening of corridor 11 & 12 services and replaced corridor 1 buses with articulated buses.
 
-Pada 27 Maret 2014, TransJakarta berubah status menjadi bentuk BUMD (Badan Usaha Milik Daerah) dan resmi berganti nama menjadi PT. Transportasi Jakarta. Rencana pembukaan layanan koridor-koridor baru terus berjalan, inovasi-inovasi pun diluncurkan demi kenyamanan para pelanggan.
+TransJakarta prepared for the opening of new corridors such as the preparation of operator tenders, construction of Busway lanes, ramps, bus stops and other supporting infrastructure. In 2013, TransJakarta also began implementing the e-ticketing system for all corridors as well as the integration of the e-ticketing system with Busway feeders and other public transport.
 
-Pada April 2016, Transjakarta resmi mengoperasikan bus khusus wanita yang berwarna pink dalam rangka memperingati hari kartini. Bus khusus wanita ini dapat ditemui di koridor 1 (Blok M - Kota). Transjakarta juga akan menambah bus khusus wanita di koridor - koridor lainnya.
+On 27 March 2014, TransJakarta changed its status to BUMD (Regional Owned Enterprise) and officially changed its name to PT Transportasi Jakarta. Plans to open new corridors continue, innovations were launched for the convenience of customers.
 
-Site Visit Transjakarta: Senior Traveler pertama kali diadakan. Peserta untuk kegiatan pertama kali diikuti oleh 40 lansia dari Panti Werdha Sasana Bina Mulya. Kegiatan ini berjalan rutin setiap minggunya dan diikuti oleh peserta yang berumur 60-70 tahun dari berbagai panti sosial. Harapannya ke depan, Transjakarta tidak hanya nyaman dan aman bagi pelanggan pada umumnya tetapi juga menjadi angkutan umum yang ramah dan mudah bagi anak-anak kecil maupun pelanggan Lansia.
+In April 2016, Transjakarta officially operated a special pink bus for women in commemoration of Kartini Day. This women-only bus can be found in corridor 1 (Blok M - Kota). Transjakarta will also add women-only buses in other corridors.
 
-### **Permasalahan**
-Dalam konsistensi perusahaan untuk **mengatasi kemacetan lalu lintas**, perusahaan akan terus **berinovasi dengan meningkatkan pelayanan pada halte-halte yang membutuhkan pengembangan**. Dengan demikian, masyarakat pengguna Transjakarta bisa dengan nyaman menggunakan fasilitas Transjakarta dan bisa bertambah penggunanya agar mengurai kemacetan di Jakarta.
+Transjakarta Site Visit: Senior Traveler was held for the first time. Participants for the first time were followed by 40 elderly people from Panti Werdha Sasana Bina Mulya. This activity runs regularly every week and is attended by participants aged 60-70 years from various social institutions. The hope is that in the future, Transjakarta will not only be comfortable and safe for customers in general but also become a public transport that is friendly and easy for small children and elderly customers.
 
-Untuk menjawab permasalahan tersebut saya akan memberikan referensi sebagai berikut :
-1. Koridor mana saja yang menjadi koridor tersibuk
-2. Koridor mana saja yang banyak di kunjungi oleh wanita
-3. Koridor mana saja yang banyak di kunjungi oleh lansia
+
+### **Problem Statement**
+In the company's consistency to **overcome traffic congestion**, the company will continue to **innovate by improving services at stops that need development**. Thus, the Transjakarta user community can comfortably use Transjakarta facilities and can increase its users in order to unravel congestion in Jakarta.
+
+To answer these problems I will provide the following references:
+1. Which corridor is the busiest corridor
+2. Which corridor is visited by many women
+3. Which corridors are visited by the elderly 4.
 
 ### **StakeHolder**
 PT. Transjakarta Bussiness and Development Team.
 
-Dataset ini berisi informasi terkait umur, jenis kelamin, asal, tujuan, dan jenis moda transportasi pengguna layanan PT. TransJakarta. Ada 22 kolom di dalam dataset Transjakarta, yaitu:
-|No. | Nama Kolom | Keterangan |
+This dataset contains age, gender, departure place, destination place, and kind of transportation PT. TransJakarta user. there was 22 column in dataset Transjakarta :
+|No. | Column Name | Detail |
 |----|------------|------------|
 |1.	|transID| Unique transaction id for every transaction|
 |2.	|payCardID| Customers main identifier. The card customers use as a ticket for entrance and exit.|
