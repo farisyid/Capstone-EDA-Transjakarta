@@ -3,6 +3,7 @@ Hello everyone, this is my second capstone project in Data Science Bootcamp on P
 This project is end-to-end analyst of the dataset. In this project used Public TransJakarta dataset from [Dataset](https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction) with dummy data from master data.
 
 You could see the Tableu Visualization [my Tableu](https://public.tableau.com/app/profile/faris.rasyid/viz/TransJakartaDataset/Story1)
+
 You could see my presentation [EXPLORATORY DATA ANALYSIS.pptx](https://github.com/farisyid/Capstone-Module-2/files/13247744/EXPLORATORY.DATA.ANALYSIS.pptx)
 
 ### **Overview**
