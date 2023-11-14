@@ -1,4 +1,4 @@
-# Capstone-Module-2-DataSet-TransJakarta
+# Capstone-EDA-TransJakarta
 Hello everyone, I am excited to present my second capstone project as part of the Data Science Bootcamp at Purwadhika. This project represents the culmination of my learnings from Module 2, which focuses on Data Analysis. During Module 2, I acquired skills in Data Analysis using MySQL, Python for Data Analysis, Fundamental Statistics, and Data Visualization.
 This project is end-to-end analyst of the dataset. In this project used Public TransJakarta dataset from [Dataset](https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction) with dummy data from master data.
 
